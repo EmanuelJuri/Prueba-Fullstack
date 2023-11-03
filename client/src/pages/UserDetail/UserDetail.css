@@ -1,0 +1,29 @@
+.user-detail-container {
+    display: flex;
+    align-items: center;
+    border: 2px solid darkmagenta;
+    border-radius: 1em;
+}
+
+.user-detail-avatar {
+    height: 18em;
+
+    border-right: 2px solid darkmagenta;
+}
+
+.user-detail-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em 2.5em;
+}
+
+.user-detail-icon-edit {
+    margin-left: 2em;
+    cursor: pointer;
+}
+
+.back-button {
+    text-align: center;
+    margin: 2em 0;
+}

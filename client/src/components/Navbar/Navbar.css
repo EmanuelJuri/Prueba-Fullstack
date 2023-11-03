@@ -1,0 +1,42 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    border: 2px solid darkmagenta;
+    border-radius: 1em;
+    width: 88vW;
+}
+
+.navbar-avatar,
+.navbar-logo {
+    height: 3em;
+    margin-right: .5em;
+}
+
+.navbar-user-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-user-name {
+    color: white;
+    margin: 0;
+    padding: .3em 0;
+    cursor: pointer;
+}
+
+.navbar-button {
+    background-color: transparent;
+    border: 1px solid darkmagenta;
+    border-radius: .6em;
+    cursor: pointer;
+}
